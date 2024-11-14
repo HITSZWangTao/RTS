@@ -40,12 +40,13 @@ Download or git clone the RTS project. Download and unzip  Data.zip.zip and Grou
 ## 2.2 Evaluation in a static environment
 We use four different metrics to quantitatively evaluate the performance of the RTS framework in a static environment, as well as that of baseline methods.
 ![Dataset.](Images/Result_Static.png)
-As shown, our method demonstrates significant improvements over baseline methods.
+We evaluate the RTS framework in a static environment, where the RSS measurements are collected from tubers of varying sizes and positions. As shown, our approach achieves an SSIM score of 0.99, representing 12.50\% and 20.73\% improvements over Two-CNN and CNN-LSTM, two state-of-the-art data-driven models. Additionally, we quantify the estimation accuracy for underground tubers. As shown, our method achieves an IoU value of 0.87, much higher than 0.28 and 0.57 from the baseline methods. Meanwhile, our method achieves RPD and EDE values of 0.11 and 2.83, respectively, representing improvements of 26.6\% and 17.01\% compared to CNN-LSTM.
+
 
 ## 2.3 Evaluation for cross-environment imaging
 We use different metrics to quantitatively evaluate the performance of the RTS framework for cross-environment imaging. The results of our model and the baseline methods are shown below.
 ![Dataset.](Images/Result_Cross.png)
-
+We collect RSS data from three different environments: a hallway, a meeting room, and a living room. We denote these environments as $E_h$, $E_m$, and $E_l$, respectively. We evaluate our framework using the SSIM, RPD and IoU values reported in Table. First, our method consistently achieves the highest SSIM values across different environments, outperforming the baselines. Second, our method achieves the average RPD value of 0.19 in different environments, which is lower than those reported by Two-CNN~(0.24) and CNN-LSTM~(0.30). Third, our method achieves an average IoU value of 0.83, surpassing baseline methods, which report values of 0.47 and 0.23, respectively. 
 
 
 
