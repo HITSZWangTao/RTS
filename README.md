@@ -9,4 +9,10 @@ For data collection, we design a testbed named Spin, which includes various cont
 To evaluate the performance of the RTS framework, we construct a comprehensive dataset consisting of data from a static environment (Case 1), a fixed environment with dynamic changes (Case 2), and various environments with diverse soil conditions (Case 3). 
 ![Dataset.](Images/dataset.png)
 
+We have released the pre-trained model and part of the corresponding data files in releases, which can be used for performance testing. 
+
+## 1 Visualization Results
+Some visualization results of the RTS framework and baseline methods are shown below. For demonstration purposes, we present imaging results from a static environment, a fixed environment with dynamic changes, and across different environments. 
+![Dataset.](Images/result.png)
+
 
