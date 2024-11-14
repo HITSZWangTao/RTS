@@ -14,5 +14,17 @@ We have released the pre-trained model and part of the corresponding data files 
 ## 1 Visualization Results
 Some visualization results of the RTS framework and baseline methods are shown below. For demonstration purposes, we present imaging results from a static environment, a fixed environment with dynamic changes, and across different environments. 
 ![Dataset.](Images/result.png)
+As shown, the RTS framework generates images that accurately demonstrate sizes, shapes, and positions. 
+
+## 2 Evaluation in a static environment
+We use four different metrics to quantitatively evaluate the performance of the RTS framework in a static environment, as well as that of baseline methods.
+![Dataset.](Images/Result_Static.png)
+As shown, our method demonstrates significant improvements over baseline methods.
+
+## 3 Evaluation for cross-environment imaging
+We use different metrics to quantitatively evaluate the performance of the RTS framework for cross-environment imaging. The results of our model and the baseline methods are shown below.
+![Dataset.](Images/Result_Cross.png)
+
+
 
 
