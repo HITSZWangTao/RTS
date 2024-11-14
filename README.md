@@ -16,20 +16,11 @@ Some visualization results of the RTS framework and baseline methods are shown b
 ![Dataset.](Images/result.png)
 As shown, the RTS framework generates images that accurately demonstrate sizes, shapes, and positions. 
 
-## 2. Evaluation in a static environment
-We use four different metrics to quantitatively evaluate the performance of the RTS framework in a static environment, as well as that of baseline methods.
-![Dataset.](Images/Result_Static.png)
-As shown, our method demonstrates significant improvements over baseline methods.
-
-## 3. Evaluation for cross-environment imaging
-We use different metrics to quantitatively evaluate the performance of the RTS framework for cross-environment imaging. The results of our model and the baseline methods are shown below.
-![Dataset.](Images/Result_Cross.png)
-
 
 # Prerequisite and Evaluation
 ## 2.1. Prerequisite
 RTS is implemented with Python 3.10 and PyTorch 2.1.0. We manage the development environment using Conda. Execute the following commands to configure the development environment.
-* Create a conda environment called RTS based on python 3.10, and activate the environment.
+* Create a conda environment called RTS based on Python 3.10, and activate the environment.
 ```
 conda create -n RTS python=3.10
 conda activate RTS 
@@ -40,6 +31,22 @@ Install PyTorch, as well as other required packages,
   pip3 install scikit-learn==1.0.2
   pip3 install scikit-image==0.19.2
 ```
+Download or git clone the RTS project. Download and unzip  Data.zip.zip and GroundTruth.zip in releases to the project directory. 
+```
+   unzip Data.zip -d [RTS root directory]
+   unzip GroundTruth.zip -d [RTS root directory]
+```
+
+## 2.2 Evaluation in a static environment
+We use four different metrics to quantitatively evaluate the performance of the RTS framework in a static environment, as well as that of baseline methods.
+![Dataset.](Images/Result_Static.png)
+As shown, our method demonstrates significant improvements over baseline methods.
+
+## 2.3 Evaluation for cross-environment imaging
+We use different metrics to quantitatively evaluate the performance of the RTS framework for cross-environment imaging. The results of our model and the baseline methods are shown below.
+![Dataset.](Images/Result_Cross.png)
+
+
 
 
 
