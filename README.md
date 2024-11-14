@@ -11,14 +11,14 @@ To evaluate the performance of the RTS framework, we construct a comprehensive d
 
 We have released the pre-trained model and part of the corresponding data files in releases, which can be used for performance testing. 
 
-## 1. Visualization Results
+## 1 Visualization Results
 Some visualization results of the RTS framework and baseline methods are shown below. For demonstration purposes, we present imaging results from a static environment, a fixed environment with dynamic changes, and across different environments. 
 ![Dataset.](Images/result.png)
 As shown, the RTS framework generates images that accurately demonstrate sizes, shapes, and positions. 
 
 
 # Prerequisite and Evaluation
-## 2.1. Prerequisite
+## 2.1 Prerequisite
 RTS is implemented with Python 3.10 and PyTorch 2.1.0. We manage the development environment using Conda. Execute the following commands to configure the development environment.
 * Create a conda environment called RTS based on Python 3.10, and activate the environment.
 ```
