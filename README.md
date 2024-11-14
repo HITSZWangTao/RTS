@@ -37,7 +37,7 @@ Download or git clone the RTS project. Download and unzip  Data.zip.zip and Grou
    unzip GroundTruth.zip -d [RTS root directory]
 ```
 
-## 2.2 Evaluation in a static environment
+## 2.2 Evaluation for a static environment
 We use four different metrics to quantitatively evaluate the performance of the RTS framework in a static environment, as well as that of baseline methods.
 ![Dataset.](Images/Result_Static.png)
 We evaluate the RTS framework in a static environment, where the RSS measurements are collected from tubers of varying sizes and positions. As shown, our approach achieves an SSIM score of 0.99, representing 12.50\% and 20.73\% improvements over Two-CNN and CNN-LSTM, two state-of-the-art data-driven models. Additionally, we quantify the estimation accuracy for underground tubers. As shown, our method achieves an IoU value of 0.87, much higher than 0.28 and 0.57 from the baseline methods. Meanwhile, our method achieves RPD and EDE values of 0.11 and 2.83, respectively, representing improvements of 26.6\% and 17.01\% compared to CNN-LSTM.
